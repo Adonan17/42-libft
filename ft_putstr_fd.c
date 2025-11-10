@@ -6,7 +6,7 @@
 /*   By: aouassar <aouassar@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:33:02 by aouassar          #+#    #+#             */
-/*   Updated: 2025/10/23 16:37:13 by aouassar         ###   ########.fr       */
+/*   Updated: 2025/11/10 19:50:20 by aouassar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd)
 	size_t	i;
 
 	if (!s)
-        return;
+		return ;
 	i = 0;
 	while (s[i])
 	{
